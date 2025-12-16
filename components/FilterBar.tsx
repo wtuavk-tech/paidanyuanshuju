@@ -1,7 +1,7 @@
 import React from 'react';
 import { Filter, Calendar, Briefcase, Search } from 'lucide-react';
-import { PROJECT_CATEGORIES } from '../constants';
-import { FilterState } from '../types';
+import { PROJECT_CATEGORIES } from '../constants.ts';
+import { FilterState } from '../types.ts';
 
 interface FilterBarProps {
   filters: FilterState;

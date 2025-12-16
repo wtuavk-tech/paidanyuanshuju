@@ -1,10 +1,10 @@
 import React, { useState, useMemo } from 'react';
-import { INITIAL_DATA } from './constants';
-import { DispatcherStats, FilterState, SortDirection, SortField } from './types';
-import DataTable from './components/DataTable';
-import FilterBar from './components/FilterBar';
-import ComparisonCharts from './components/ComparisonCharts';
-import IndividualAnalysis from './components/IndividualAnalysis';
+import { INITIAL_DATA } from './constants.ts';
+import { DispatcherStats, FilterState, SortDirection, SortField } from './types.ts';
+import DataTable from './components/DataTable.tsx';
+import FilterBar from './components/FilterBar.tsx';
+import ComparisonCharts from './components/ComparisonCharts.tsx';
+import IndividualAnalysis from './components/IndividualAnalysis.tsx';
 import { LayoutDashboard, BarChart2 } from 'lucide-react';
 
 // 辅助函数：获取本地时间的 ISO 字符串格式 (yyyy-MM-ddThh:mm)，用于 input[type="datetime-local"]
